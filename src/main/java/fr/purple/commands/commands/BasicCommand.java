@@ -9,10 +9,10 @@ import org.bukkit.command.CommandSender;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BasicCommand extends Command {
+public final class BasicCommand extends Command {
 
-    private List<Parameter> parameters;
-    private CommandContent content;
+    private final List<Parameter> parameters;
+    private final CommandContent content;
 
     public BasicCommand(String name, List<Parameter> parameters, CommandContent content) {
         super(name);

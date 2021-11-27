@@ -5,7 +5,7 @@ import fr.purple.commands.utils.Pair;
 
 import java.util.List;
 
-public class ParameterList {
+public final class ParameterList {
 
     private final List<Pair<Parameter, Object>> arguments;
 
