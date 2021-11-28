@@ -24,16 +24,3 @@ repositories {
 dependencies {
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
 }
-
-publishing {
-    repositories {
-        maven {
-            name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/purpeul/Commands")
-            credentials {
-                username = "purpeul"
-                password = System.getenv("purpeul.token")
-            }
-        }
-    }
-}
