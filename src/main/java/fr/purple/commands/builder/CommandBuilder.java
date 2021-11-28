@@ -13,8 +13,14 @@ public final class CommandBuilder {
         this.commands = ccmd.getCommands();
     }
 
-    public BasicCommandBuilder asBasic(){
-        return new BasicCommandBuilder(name, command -> {
+    public BasicBuilder asBasic(){
+        return new BasicBuilder(name, command -> {
+            commands.register(name, command);
+        });
+    }
+
+    public ComplexBuilder asComplex(){
+        return new ComplexBuilder(name, command -> {
             commands.register(name, command);
         });
     }

@@ -3,6 +3,7 @@ package fr.purple.commands.parameters.type;
 public enum Parameters {
 
     STRING(new StringParameter()),
+    NUMBER(new NumberParameter()),
     PLAYER(new PlayerParameter()),
     WORLD(new WorldParameter()),
     ;

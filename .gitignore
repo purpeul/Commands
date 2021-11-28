@@ -3,6 +3,7 @@ gradle/
 src/test/*
 src/test/
 src/main/resources/
+build/
 gradlew
 gradlew.bat
 settings.gradle

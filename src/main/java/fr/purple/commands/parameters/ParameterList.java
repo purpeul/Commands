@@ -14,7 +14,7 @@ public final class ParameterList {
     }
 
     public <T> T get(int index){
-        return (T) arguments.get(index).getA();
+        return (T) arguments.get(index).getB();
     }
 
     public <T> T get(int index, Class<T> tclass){
