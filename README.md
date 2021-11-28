@@ -1,5 +1,20 @@
-# Commands
- 
+# Commands Systems
+
+## Get Started
+
+```gradle
+repositories {
+			...
+			maven { url 'https://jitpack.io' }
+}
+  
+dependencies {
+	  implementation 'com.github.purpeul:Commands:0.4-alpha'
+}
+```
+
+## Make your first command
+
 ```java
 ColorCommands.getInstance().register("hello")
    .asBasic()
