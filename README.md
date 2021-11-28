@@ -4,12 +4,12 @@
 
 ```gradle
 repositories {
-			...
-			maven { url 'https://jitpack.io' }
+  ...
+  maven { url 'https://jitpack.io' }
 }
   
 dependencies {
-	  implementation 'com.github.purpeul:Commands:0.4-alpha'
+  implementation 'com.github.purpeul:Commands:0.4-alpha'
 }
 ```
 
